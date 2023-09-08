@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Ariston-Normal";
+  src: url(fonts/Ariston\ Normal.ttf);
+}
+@font-face {
+  font-family: "Georgia-Italic";
+  src: url(fonts/Georgia\ Italic.ttf);
+}
+@font-face {
+  font-family: "Proxima-Nova-Regular-Italic";
+  src: url(fonts/Proxima\ Nova\ Regular\ Italic.ttf);
+}
+@font-face {
+  font-family: "Proxima-Nova-Regular";
+  src: url(fonts/Proxima\ Nova\ Regular.ttf);
+}
+@font-face {
+  font-family: "Proxima-Nova-Semibold";
+  src: url(fonts/Proxima\ Nova\ Semibold.ttf);
+}
+body {
+  background-image: url(/img/bg.gif);
+}
+
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+a:hover {
+  color: rebeccapurple;
+}
+
+.main {
+  border: 4px solid #f5f5f5;
+  border-radius: 10px;
+  border-style: groove;
+  box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.22);
+  background-color: #fafafa;
+  width: 800px;
+  height: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.head {
+  width: auto;
+  height: 60px;
+  text-align: center;
+}
+
+.Blog-Title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 36px;
+}
+
+.UPline {
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 30px;
+}
+
+.UnderLine {
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 15px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu-item li {
+  display: inline-block;
+  margin-left: 30px;
+  font-family: Georgia-Italic;
+}
+
+.content-box {
+  display: flex;
+  margin-top: 50px;
+  height: 400px;
+}
+
+.pannel {
+  height: 400px;
+  width: 170px;
+}
+.content {
+  height: 400px;
+  width: 660px;
+  margin-left: 10px;
+}
+
+.pannel p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: crimson;
+  font-size: 12px;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.pannel img {
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-family: Proxima-Nova-Semibold;
+  color: #777777;
+}
+
+.content p {
+  font-family: Proxima-Nova-Regular;
+  font-size: 15px;
+  color: #777777;
+}
+
+.ContentLine {
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content img {
+  border: 4px solid #e1e1e1;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.cb-down {
+  height: 480px;
+}
+
+.img-footer-line {
+  margin-left: 30spx;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: Georgia-Italic;
+  text-align: center;
+}
+
+.footer a {
+  color: blue;
+}
+
+.MiddleLine {
+  margin-top: 110px;
+  height: 10px;
+  background-image: url(/img/background_line.png);
+  opacity: 0.2;
+}
